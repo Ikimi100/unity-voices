@@ -37,17 +37,17 @@
       cta: "Introduce yourself as a chorister"
     },
     keyboardist: {
-      title: "Keyboardist",
+      title: "Keyboardists",
       text: "Play for worship and rehearsals, follow the worship leader's flow, and give the choir its pitch and foundation.",
       cta: "Introduce yourself as a keyboardist"
     },
     guitarist: {
-      title: "Lead guitarist",
+      title: "Lead guitarists",
       text: "Play lead lines and fills that lift the worship without crowding the voices, and lock in with the rest of the band.",
       cta: "Introduce yourself as a lead guitarist"
     },
     drummer: {
-      title: "Drummer",
+      title: "Drummers",
       text: "Keep a steady, sensitive groove that holds the whole team together, from quiet worship to high praise.",
       cta: "Introduce yourself as a drummer"
     }
