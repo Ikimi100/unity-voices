@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-NG">
+<html lang="en-NG" data-theme="ivory">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -21,8 +21,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="assets/img/hero-1280.jpg" imagesrcset="assets/img/hero-mobile.jpg 1000w, assets/img/hero-1280.jpg 1280w, assets/img/hero-2400.jpg 2400w" imagesizes="100vw">
-<link rel="stylesheet" href="assets/css/style.css?v=4">
+<link rel="preload" as="image" href="assets/img/hero-1600.jpg" media="(min-width: 701px)">
+<link rel="preload" as="image" href="assets/img/hero-mobile.jpg" media="(max-width: 700px)">
+<link rel="stylesheet" href="assets/css/style.css?v=5">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -43,7 +44,7 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="nav" id="top">
+<header class="nav tone-dark" id="top">
   <div class="nav-inner wrap">
     <a class="brand" href="#top" aria-label="Unity Voices, back to top">
       <img src="assets/img/logo-96.png" width="44" height="44" alt="">
@@ -62,10 +63,10 @@
 
 <main id="main">
 
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero tone-dark" aria-labelledby="hero-title">
   <picture>
     <source media="(max-width: 700px)" srcset="assets/img/hero-mobile.jpg">
-    <img src="assets/img/hero-1280.jpg" srcset="assets/img/hero-1280.jpg 1280w, assets/img/hero-2400.jpg 2400w" sizes="100vw" width="2400" height="1600" alt="The Unity Voices choir in matching ankara singing at the Unity Worship Centre Thanksgiving Service" fetchpriority="high">
+    <img src="assets/img/hero-1600.jpg" srcset="assets/img/hero-1080.jpg 1080w, assets/img/hero-1600.jpg 1600w" sizes="100vw" width="1600" height="1067" alt="The Unity Voices choir in white with green scarves singing across the stage at the Unity Worship Centre Independence service" fetchpriority="high">
   </picture>
   <div class="hero-body wrap">
     <p class="hero-kicker"><img src="assets/img/logo-96.png" width="28" height="28" alt="">Unity Worship Centre, Utako, Abuja</p>
@@ -79,7 +80,7 @@
   </div>
 </section>
 
-<section class="note" aria-labelledby="note-title">
+<section class="note tone-light" aria-labelledby="note-title">
   <div class="wrap note-grid">
     <div class="note-head">
       <img class="note-badge" src="assets/img/logo-192.png" width="96" height="96" alt="Unity Worship Centre logo">
@@ -97,7 +98,7 @@
   </div>
 </section>
 
-<section class="roles" id="roles" aria-labelledby="roles-title">
+<section class="roles tone-light tone-alt" id="roles" aria-labelledby="roles-title">
   <div class="wrap">
     <div class="section-head">
       <h2 id="roles-title">Find your place on the stage</h2>
@@ -109,8 +110,8 @@
 <title id="stage-svg-title">Stage plan of Unity Voices with open places for choristers, lead voices, keys, lead guitar and drums</title>
 <defs>
   <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#3a1b70"/>
-    <stop offset="1" stop-color="#6331ad"/>
+    <stop offset="0" class="floor-a"/>
+    <stop offset="1" class="floor-b"/>
   </linearGradient>
   <radialGradient id="spot" cx="50%" cy="50%" r="50%">
     <stop offset="0" stop-color="#f0c457" stop-opacity=".55"/>
@@ -118,7 +119,7 @@
   </radialGradient>
 </defs>
 <path class="floor" d="M36 40 H684 L714 400 Q360 478 6 400 Z" fill="url(#floor)"/>
-<path d="M36 40 H684" stroke="#8b62cf" stroke-width="2" fill="none" opacity=".6"/>
+<path d="M36 40 H684" class="floor-edge" stroke-width="2" fill="none"/>
 
 <path d="M246.8 58.4 A150 150 0 0 0 473.2 58.4" stroke="#ffffff" stroke-opacity=".07" stroke-width="34" stroke-linecap="round" fill="none"/>
 <path d="M213.7 96.4 A200 200 0 0 0 506.3 96.4" stroke="#ffffff" stroke-opacity=".07" stroke-width="34" stroke-linecap="round" fill="none"/>
@@ -127,7 +128,7 @@
 <g class="spot" data-role="chorister" tabindex="0" role="button" aria-pressed="false" aria-label="Choristers: see what we are looking for">
   <ellipse cx="360" cy="146" rx="172" ry="84" class="hit"/>
   <circle cx="303.8" cy="99.1" r="9.5" class="seat-open" style="--d:0"/><circle cx="416.2" cy="99.1" r="9.5" class="seat-open" style="--d:1"/><circle cx="249.3" cy="126.6" r="9.5" class="seat-open" style="--d:2"/><circle cx="360.0" cy="160.0" r="9.5" class="seat-open" style="--d:3"/><circle cx="470.7" cy="126.6" r="9.5" class="seat-open" style="--d:4"/><circle cx="199.3" cy="151.5" r="9.5" class="seat-open" style="--d:5"/><circle cx="274.5" cy="194.9" r="9.5" class="seat-open" style="--d:6"/><circle cx="389.0" cy="208.3" r="9.5" class="seat-open" style="--d:7"/><circle cx="472.2" cy="183.4" r="9.5" class="seat-open" style="--d:8"/><circle cx="520.7" cy="151.5" r="9.5" class="seat-open" style="--d:9"/>
-  <text x="360" y="30" class="spot-label" text-anchor="middle">Choristers</text>
+  <text x="360" y="64" class="spot-label" text-anchor="middle">Choristers</text>
 </g>
 <g class="spot" data-role="drummer" transform="translate(-6 0)" tabindex="0" role="button" aria-pressed="false" aria-label="Drummer: see what we are looking for">
   <rect x="44" y="92" width="150" height="118" rx="14" class="riser"/>
@@ -187,7 +188,7 @@
   </div>
 </section>
 
-<section class="steps" id="join" aria-labelledby="steps-title">
+<section class="steps tone-light" id="join" aria-labelledby="steps-title">
   <div class="wrap">
     <div class="section-head">
       <h2 id="steps-title">Four steps to the choir stand</h2>
@@ -218,7 +219,7 @@
   </div>
 </section>
 
-<section class="rehearsal" id="rehearsal" aria-labelledby="rehearsal-title">
+<section class="rehearsal tone-dark" id="rehearsal" aria-labelledby="rehearsal-title">
   <div class="wrap rehearsal-grid">
     <div class="rehearsal-copy">
       <h2 id="rehearsal-title">Rehearsal is every Saturday at 12 noon.</h2>
@@ -245,7 +246,7 @@
   </div>
 </section>
 
-<section class="areas" id="introduce" aria-labelledby="areas-title">
+<section class="areas tone-light tone-alt" id="introduce" aria-labelledby="areas-title">
   <div class="wrap">
     <div class="section-head">
       <h2 id="areas-title">From every corner of Abuja to one stage in Utako.</h2>
@@ -392,7 +393,7 @@
   </div>
 </section>
 
-<section class="gallery" id="gallery" aria-labelledby="gallery-title">
+<section class="gallery tone-dark" id="gallery" aria-labelledby="gallery-title">
   <div class="wrap">
     <div class="section-head">
       <h2 id="gallery-title">Unity Voices in worship</h2>
@@ -428,7 +429,7 @@
   </div>
 </section>
 
-<section class="church" aria-labelledby="church-title">
+<section class="church tone-light" aria-labelledby="church-title">
   <div class="wrap church-grid">
     <figure class="church-photo">
       <img src="assets/img/auditorium-lg.jpg" width="777" height="413" alt="The Unity Worship Centre auditorium in Utako during a service" loading="lazy" decoding="async">
@@ -464,7 +465,7 @@
   </div>
 </section>
 
-<section class="faq" id="faq" aria-labelledby="faq-title">
+<section class="faq tone-light tone-alt" id="faq" aria-labelledby="faq-title">
   <div class="wrap faq-grid">
     <h2 id="faq-title">Questions people ask</h2>
     <div class="faq-list">
@@ -500,7 +501,7 @@
   </div>
 </section>
 
-<section class="final" aria-labelledby="final-title">
+<section class="final tone-dark" aria-labelledby="final-title">
   <img class="final-bg" src="assets/img/choir-purple-congregation-lg.jpg" width="1800" height="1200" alt="" loading="lazy" decoding="async">
   <div class="wrap final-body">
     <h2 id="final-title">There is a place in the choir stand for you.</h2>
@@ -517,7 +518,7 @@
 
 </main>
 
-<footer class="footer">
+<footer class="footer tone-dark">
   <div class="wrap footer-grid">
     <div class="footer-brand">
       <img src="assets/img/logo-96.png" width="56" height="56" alt="">
@@ -534,11 +535,11 @@
   </div>
 </footer>
 
-<div class="mobile-cta" id="mobile-cta" aria-hidden="true">
+<div class="mobile-cta tone-dark" id="mobile-cta" aria-hidden="true">
   <a class="btn btn-gold" href="https://chat.whatsapp.com/J8uxgFtlMetAWAwLxYW870?s=cl&amp;p=a&amp;iam=2" target="_blank" rel="noopener" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.14h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.37c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.22-8.23 8.22Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.29Z"/></svg>Join the WhatsApp group</a>
 </div>
 
-<dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+<dialog class="lightbox tone-dark" id="lightbox" aria-label="Photo viewer">
   <figure>
     <img id="lb-img" src="" alt="">
     <figcaption id="lb-cap"></figcaption>
@@ -549,6 +550,6 @@
 </dialog>
 
 <script>window.UV_GROUP = "https://chat.whatsapp.com/J8uxgFtlMetAWAwLxYW870?s=cl&p=a&iam=2";</script>
-<script src="assets/js/main.js?v=4" defer></script>
+<script src="assets/js/main.js?v=5" defer></script>
 </body>
 </html>
